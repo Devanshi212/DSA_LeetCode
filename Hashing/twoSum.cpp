@@ -12,11 +12,11 @@ vector<int> twoSum(vector<int> &nums, int target)
     {
         m[nums[i]] = i;
     }
-    //used for debugging 
-    // for (auto i = m.begin(); i != m.end(); i++)
-    // {
-    //     cout << i->first << " " << i->second << endl;
-    // }
+    // used for debugging
+    //  for (auto i = m.begin(); i != m.end(); i++)
+    //  {
+    //      cout << i->first << " " << i->second << endl;
+    //  }
     int val;
     for (int i = 0; i < nums.size(); i++)
     {
@@ -57,8 +57,8 @@ vector<int> twoSum(vector<int> &nums, int target)
 //     return res;
 // }
 
-int main(){
-    
+int main()
+{
+
     return 0;
 }
-
